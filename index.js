@@ -26,4 +26,5 @@ function copytext() {
   let passwordtext = document.getElementById("password");
   password = passwordtext.value;
   navigator.clipboard.writeText(password);
+  alert("password copied",:password,"!");
 }
